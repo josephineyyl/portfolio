@@ -37,3 +37,5 @@ def write_to_csv(data):
         message = data["message"]
         csv_writer = csv.writer(database_csv, delimiter=',', quotechar='"', quoting=csv.QUOTE_MINIMAL)
         csv_writer.writerow([email, subject, message])
+        
+        #testing
